@@ -1,0 +1,11 @@
+package Trial_Project;
+import java.lang.*;
+public class finding_size_of_any_datatype {
+	public static void main(String[] args) {
+		System.out.println("Interger min value:"+Integer.MIN_VALUE);
+		System.out.println("Interger MAX value:"+Integer.MAX_VALUE);
+		System.out.println("Interger BYTES value:"+Integer.BYTES);
+		
+	}
+
+}
