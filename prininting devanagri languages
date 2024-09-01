@@ -1,0 +1,14 @@
+
+import java.lang.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(char a=0x0900;a<0x0970;a++){
+		    System.out.println(a);
+		}
+	
+
+	}
+
+}
