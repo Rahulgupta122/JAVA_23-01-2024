@@ -1,0 +1,12 @@
+package Trial_Project;
+import java.lang.*;
+public class binary_digits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=-5;
+		System.out.println(Integer.toBinaryString(x));
+
+	}
+
+}
