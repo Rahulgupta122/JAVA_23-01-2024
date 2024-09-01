@@ -1,0 +1,12 @@
+package Trial_Project;
+import java.lang.*;
+public class to_use_unicode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char a=0x004D;
+		System.out.println(a);
+
+	}
+
+}
