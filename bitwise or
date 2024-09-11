@@ -1,0 +1,18 @@
+package Trial_Project;
+
+import java.util.Scanner;
+import java.util.*;
+public class bitwiseor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int y;
+		y=a|b;
+		System.out.println(y);
+
+	}
+
+}
