@@ -1,0 +1,19 @@
+package Trial_Project;
+
+public class concat_game {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;
+		int b=20;
+		// but here we want only addition 
+		//here concat only
+		System.out.println("sum"+a+b);
+		//here addition is first then concat
+		System.out.println(a+b+"sum");
+		// if we want addition in first method so we use bracket 
+		System.out.println("sum "+(a+b));
+		
+	}
+
+}
