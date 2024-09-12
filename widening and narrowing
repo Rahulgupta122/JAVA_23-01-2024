@@ -1,0 +1,15 @@
+package Trial_Project;
+
+public class widening_and_narrowing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte b=4;
+		short s=1200;
+		b=(byte)s;
+		System.out.print(b);
+		
+
+	}
+
+}
