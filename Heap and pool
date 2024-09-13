@@ -1,0 +1,26 @@
+package Trial_Project;
+
+public class Heap_and_pool {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char c[]= {'h','e','e','l','o'};
+		String str=new String(c,2,2);
+		System.out.println(str);
+		byte b[]= {65,66,67,68,};
+		String str2=new String(b,2,2);
+		System.out.println(str2);
+		String s="Ko";
+		String s2="Ko";
+		System.out.println(s==s2);
+		// if i do K in small case
+		String s3="Ko";
+		String s4="ko";
+		System.out.println(s3==s4);
+		String s6="Ko";
+		String s7=new String("Ko");
+		System.out.println(s6==s7);
+
+	}
+
+}
