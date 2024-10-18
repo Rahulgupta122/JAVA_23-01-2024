@@ -1,0 +1,12 @@
+package Trial_Project;
+
+public class regular_expression_dot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// it runs only for single values
+		String a="f";
+		System.out.println(a.matches("."));
+	}
+
+}
