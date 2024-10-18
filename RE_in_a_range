@@ -1,0 +1,13 @@
+package Trial_Project;
+
+public class RE_in_a_range {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="b";
+		System.out.println(s.matches("[abc]"));
+		
+
+	}
+
+}
