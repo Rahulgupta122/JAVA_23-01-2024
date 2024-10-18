@@ -1,0 +1,22 @@
+package Trial_Project;
+
+public class meta_charaacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a="1";
+		System.out.println(a.matches("\\d"));
+		String b="1";
+		System.out.println(b.matches("\\D"));
+		String c=" ";
+		System.out.println(c.matches("\\s"));
+		String d="d";
+		System.out.println(d.matches("\\S"));
+		String e="1";
+		System.out.println(a.matches("\\w"));
+		String f="1";
+		System.out.println(a.matches("\\W"));
+
+	}
+
+}
