@@ -1,0 +1,27 @@
+package Trial_Project;
+import java.util.*;
+public class radix {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		String str=sc.nextLine();
+		if(str.matches("[01]+")) {
+			System.out.println("binary number");
+		}
+		else if(str.matches("[0-7]+")) {
+			System.out.println("Octal number");
+		}
+		else if(str.matches("[0-9A-F]+")) {
+			System.out.println("hexAdecimal number");
+		}
+		else if(str.matches("[0-9]+")) {
+			System.out.println("decimal number");
+		}
+		else  {
+			System.out.println("you entered wrong");
+		}
+
+	}
+
+}
