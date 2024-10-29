@@ -1,0 +1,23 @@
+package Trial_Project;
+import java.util.Scanner;
+public class leapyear {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int input=sc.nextInt();
+		if(input%100==0) {
+			if(input%400==0) {
+				System.out.println("YES");
+			}
+			else {
+				System.out.println("NO");
+			}
+		}
+		else {
+			System.out.println("NO");
+		}
+
+	}
+
+}
