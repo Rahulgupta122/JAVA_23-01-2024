@@ -1,0 +1,30 @@
+package Trial_Project;
+import java.util.Scanner;
+import java.util.Scanner;
+
+public class maximum_num_array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc=new Scanner(System.in);
+		
+		int v=sc.nextInt();
+		
+		int arr[]=new int[v];
+		
+		for(int i=0;i<v;i++) {
+		arr[i]=sc.nextInt();	
+		}
+		int max=arr[0];
+		for(int i=0;i<v;i++) {
+			if(arr[i]>max) {
+				max=arr[i];
+			}
+			
+
+		}
+		System.out.print(max);
+
+	}
+
+}
