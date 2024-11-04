@@ -1,0 +1,29 @@
+package Trial_Project;
+import java.util.Scanner;
+public class second_max_ele_array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		int a=sc.nextInt();
+		int arr[]=new int[a];
+		for(int i=0;i<a;i++) {
+			arr[i]=sc.nextInt();
+		}
+		int max1=arr[0];
+		int max2=arr[0];
+		for(int i=0;i<a;i++) {
+			if(arr[i]>max1) {
+				max2=max1;
+				max1=arr[i];
+			}
+			else if(arr[i]>max2) {
+				max2=arr[i];
+			}
+		}
+		System.out.print(max2);
+
+	}
+
+}
