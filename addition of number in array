@@ -1,0 +1,21 @@
+package Trial_Project;
+import java.util.Scanner;
+public class add_num_array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int arr[]=new int[a];
+		for(int i=0;i<a;i++) {
+			arr[i]=sc.nextInt();
+		}
+		int count=0;
+		for(int i=0;i<a;i++) {
+			count =count+arr[i];
+		}
+		System.out.print(count);
+
+	}
+
+}
