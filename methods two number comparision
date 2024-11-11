@@ -1,0 +1,25 @@
+package oops;
+
+public class methods_1 {
+	int max(int x,int y) {
+		if(x>y) {
+			return x;
+		}
+		else {
+			return y;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		methods_1 sc=new methods_1();
+		int a=10;
+		int b=5;
+		int c;
+		
+		
+		System.out.println(sc.max(a,b));
+
+	}
+
+}
