@@ -1,0 +1,22 @@
+package Trial_Project;
+
+public class gcd_udemy {
+	static int gcd(int a,int b) {
+		while(a!=b) {
+			if(b>a) {
+				b=b-a;
+			}
+			else {
+				a=a-b;
+			}
+		}
+		return a;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print(gcd(15,25));
+
+	}
+
+}
