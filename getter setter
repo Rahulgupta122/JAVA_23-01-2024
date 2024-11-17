@@ -1,0 +1,37 @@
+package oops;
+class square{
+	private int num1;
+	private int num2;
+	public int getnum() {
+		return num1;
+	}
+	public void setnum(int n) {
+	     num1=n;
+	}
+	public int getnums() {
+		return num2;
+	}
+	public void setnums(int k) {
+	     num2=k;
+	}
+	
+	public void sq() {
+		System.out.print(num1*num2);
+	}
+}
+public class getter_setter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		square sc=new square();
+		
+		sc.setnum(5);
+		sc.setnums(5);
+		sc.sq();
+		System.out.println(sc.getnum());
+		System.out.println(sc.getnums());
+		
+
+	}
+
+}
