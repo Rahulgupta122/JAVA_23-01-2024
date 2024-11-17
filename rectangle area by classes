@@ -1,0 +1,29 @@
+package oops;
+import java.util.Scanner;
+class rectangle{
+	public int len;
+	public int bre;
+	public void area() {
+		System.out.println(len*bre);
+	}
+	public void peri(){
+		System.out.println(2*(len+bre));
+	}
+}
+public class area_rectangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		rectangle re=new rectangle();
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		re.len=a;
+		re.bre=b;
+		re.area();
+		re.peri();
+		
+
+	}
+
+}
