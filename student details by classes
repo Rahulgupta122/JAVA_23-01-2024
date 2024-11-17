@@ -1,0 +1,50 @@
+package oops;
+
+class student{
+	public int roll;
+	public String name ;
+	public String Course;
+	public int num1;
+	public int num2;
+	public int num3;
+	
+	public void total() {
+		 int add=num1+num2+num3;
+		System.out.format(" roll number %d  name %s couse %s got %d numbers \n",roll,name,Course,add);
+	}
+	public void ave() {
+		float div=(num1+num2+num3)/3;
+		System.out.println("he got average"+div);
+	}
+	public void grade() {
+		float divi=(num1+num2+num3)/3;
+		if(divi>=70) {
+			System.out.println("he pass grade A");
+		}
+		else if(divi>=50 && divi<70) {
+			System.out.println("he pass grade B");
+		}
+		else {
+			System.out.println(" Fail....");
+		}
+	}
+	
+}
+public class student_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		student s=new student();
+		s.roll=21;
+		s.name="Rahul";
+		s.Course="Btech";
+		s.num1=50;
+		s.num2=50;
+		s.num3=50;
+		s.total();
+		s.ave();
+		s.grade();
+
+	}
+
+}
