@@ -1,0 +1,23 @@
+package oops;
+
+class circle{
+	 public int a;
+	public void area() {
+		System.out.println(a*a);
+	}
+}
+
+public class classes_first_udemy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		circle c=new circle();
+		circle c1=new circle();
+		c.a=5;
+		c.area();
+		c1.a=6;
+		c1.area();
+
+	}
+
+}
