@@ -1,0 +1,27 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+class animal{
+    void sound(){
+        System.out.println("SOUND");
+    }
+}
+class dog extends animal{
+    void sound(){
+        System.out.println("Bark");
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		animal a=new animal();
+		a.sound();
+		dog d=new dog();
+		d.sound();
+	}
+}
