@@ -1,0 +1,43 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();           
+        int k = sc.nextInt();           
+        int[] arr = new int[n];         
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+       
+        int index = searchElement(arr, k);
+        System.out.println("my index"+index);
+    }
+
+    public static int searchElement(int[] arr, int k) {
+        int n = arr.length;
+        int lp = n / 2;
+        int mid = arr[lp];
+
+        if (mid == k) {
+            return lp;
+        } else if (mid < k) {
+            for (int i = lp + 1; i < n; i++) {
+                if (arr[i] == k) {
+                    return i;
+                }
+            }
+        } else {
+            for (int i = 0; i < lp; i++) {
+                if (arr[i] == k) {
+                    return i;
+                }
+            }
+        }
+
+        return -1; 
+    }
+}
